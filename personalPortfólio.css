@@ -96,8 +96,10 @@ span {
 
 p {
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 1.8rem;
   text-align: justify;
+  white-space: normal;
 }
 
 .image-img img {
@@ -455,37 +457,13 @@ p {
   }
 }
 
-@media (max-width: 2560px) {
-  html {
-    font-size: 100%;
-  }
-
-  .container {
-    font-size: 11px;
-    width: 40em;
-    height: 40em;
-    position: absolute;
-    margin-bottom: 5%;
-  }
-}
-
 @media (max-width: 2000px) {
-  html {
-    font-size: 85%;
+  .tastes-personal {
+    margin-top: -28%;
   }
 
-  .container {
-    font-size: 8px;
-    width: 40em;
-    height: 40em;
-    position: absolute;
-    margin-bottom: 5%;
-  }
-}
-
-@media (max-width: 1900px) {
-  html {
-    font-size: 75%;
+  .my-motivations {
+    margin-top: -35%;
   }
 
   .container {
@@ -493,7 +471,43 @@ p {
     width: 40em;
     height: 40em;
     position: absolute;
-    margin-bottom: 5%;
+    margin-bottom: 20%;
+  }
+}
+
+@media (max-width: 1920px) {
+  .tastes-personal {
+    margin-top: -32%;
+  }
+
+  .my-motivations {
+    margin-top: -39%;
+  }
+
+  .container {
+    font-size: 6px;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    margin-bottom: 20%;
+  }
+}
+
+@media (max-width: 1900px) {
+  .tastes-personal {
+    margin-top: -28%;
+  }
+
+  .my-motivations {
+    margin-top: -35%;
+  }
+
+  .container {
+    font-size: 6px;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    margin-bottom: 20%;
   }
 }
 
@@ -508,6 +522,28 @@ p {
     height: 40em;
     position: absolute;
     margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 1768px) {
+  html {
+    font-size: 85%;
+  }
+
+  .tastes-personal {
+    margin-top: -15%;
+  }
+
+  .my-motivations {
+    margin-top: -15%;
+  }
+
+  .container {
+    font-size: 6px;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    margin-bottom: 10%;
   }
 }
 
@@ -530,6 +566,14 @@ p {
     font-size: 58%;
   }
 
+  .tastes-personal {
+    margin-top: -20%;
+  }
+
+  .my-motivations {
+    margin-top: -15;
+  }
+
   .container {
     font-size: 6px;
     width: 40em;
@@ -543,38 +587,9 @@ p {
   html {
     font-size: 54%;
   }
-}
-
-@media (max-width: 970px) {
-  html {
-    font-size: 50%;
-  }
 
   .tastes-personal {
-    margin-top: -30rem;
-  }
-}
-
-@media (max-width: 880px) {
-  html {
-    font-size: 50%;
-  }
-
-  .tastes-personal {
-    margin-top: -30rem;
-  }
-
-  .navbar a {
-    font-size: 1.3rem;
-    color: #ffffff;
-    margin-left: 4rem;
-    font-weight: 700;
-  }
-}
-
-@media (max-width: 1100px) {
-  html {
-    font-size: 54%;
+    margin-top: -25rem;
   }
 }
 
@@ -584,7 +599,7 @@ p {
   }
 
   .tastes-personal {
-    margin-top: -30rem;
+    margin-top: -35rem;
   }
 }
 
@@ -594,24 +609,7 @@ p {
   }
 
   .tastes-personal {
-    margin-top: -30rem;
-  }
-
-  .navbar a {
-    font-size: 1.3rem;
-    color: #ffffff;
-    margin-left: 4rem;
-    font-weight: 700;
-  }
-}
-
-@media (max-width: 768px) {
-  html {
-    font-size: 50%;
-  }
-
-  .tastes-personal {
-    margin-top: -38rem;
+    margin-top: -60%;
   }
 
   .navbar a {
@@ -664,8 +662,217 @@ p {
     border-radius: 50%;
     box-shadow: 0 0 65px rgb(229, 57, 57);
     animation: floatImage 4s ease-in-out infinite;
-    margin-top: -23%;
+    margin-top: -30%;
     margin-left: 35%;
+  }
+
+  .container {
+    font-size: 4px;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    margin-bottom: 38%;
+  }
+
+  .my-motivations {
+    margin-top: -60%;
+  }
+
+  .about-content h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .about-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+  }
+
+  .about-content h1 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+
+  .tastes-personal {
+    margin-top: -60%;
+  }
+
+  .navbar a {
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+    padding: 4px;
+    margin: 2rem 0;
+  }
+
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+  #menu-icon {
+    display: block;
+    font-size: 2.6rem;
+    margin-right: 2rem;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 40%;
+    border-left: 3px solid rgb(229, 57, 57);
+    border-bottom: 3px solid rgb(229, 57, 57);
+    border-bottom-left-radius: 2em;
+    padding: 1rem 3%;
+    background-color: #000000;
+    border-bottom: 0.1rem solid black;
+    display: none;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+
+  .image-img img {
+    width: 40%;
+    border-radius: 50%;
+    box-shadow: 0 0 65px rgb(229, 57, 57);
+    animation: floatImage 4s ease-in-out infinite;
+    margin-top: -30%;
+    margin-left: 35%;
+  }
+
+  .container {
+    font-size: 4px;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    margin-bottom: 38%;
+  }
+
+  .my-motivations {
+    margin-top: -60%;
+  }
+
+  .about-content h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .about-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+  }
+
+  .about-content h1 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 50%;
+  }
+
+  .tastes-personal {
+    margin-top: -70%;
+  }
+
+  .navbar a {
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+    padding: 4px;
+    margin: 2rem 0;
+  }
+
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+  #menu-icon {
+    display: block;
+    font-size: 2.6rem;
+    margin-right: 2rem;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 40%;
+    border-left: 3px solid rgb(229, 57, 57);
+    border-bottom: 3px solid rgb(229, 57, 57);
+    border-bottom-left-radius: 2em;
+    padding: 1rem 3%;
+    background-color: #000000;
+    border-bottom: 0.1rem solid black;
+    display: none;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+
+  .image-img img {
+    width: 40%;
+    border-radius: 50%;
+    box-shadow: 0 0 65px rgb(229, 57, 57);
+    animation: floatImage 4s ease-in-out infinite;
+    margin-top: -30%;
+    margin-left: 35%;
+  }
+
+  .container {
+    font-size: 4px;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    margin-bottom: 38%;
+  }
+
+  .my-motivations {
+    margin-top: -60%;
+  }
+
+  .about-content h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .about-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+  }
+
+  .about-content h1 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.3;
   }
 }
 
@@ -675,279 +882,7 @@ p {
   }
 
   .tastes-personal {
-    margin-top: -38rem;
-  }
-
-  .navbar a {
-    font-size: 1.3rem;
-    color: #ffffff;
-    font-weight: 700;
-    display: block;
-    padding: 4px;
-    margin: 2rem 0;
-  }
-
-  .header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 2rem 9%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-  }
-
-  #menu-icon {
-    display: block;
-    font-size: 2.6rem;
-    margin-right: 2rem;
-  }
-
-  .navbar {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    width: 40%;
-    border-left: 3px solid rgb(229, 57, 57);
-    border-bottom: 3px solid rgb(229, 57, 57);
-    border-bottom-left-radius: 2em;
-    padding: 1rem 3%;
-    background-color: #000000;
-    border-bottom: 0.1rem solid black;
-    display: none;
-  }
-
-  .navbar.active {
-    display: block;
-  }
-
-  .image-img img {
-    width: 38%;
-    border-radius: 50%;
-    box-shadow: 0 0 65px rgb(229, 57, 57);
-    animation: floatImage 4s ease-in-out infinite;
-    margin-top: -20%;
-    margin-left: 35%;
-  }
-
-  .container {
-    font-size: 5px;
-    width: 40em;
-    height: 40em;
-    position: absolute;
-    margin-bottom: 5%;
-  }
-}
-
-@media (max-width: 480px) {
-  html {
-    font-size: 50%;
-  }
-
-  .tastes-personal {
-    margin-top: -38rem;
-  }
-
-  .navbar a {
-    font-size: 1.3rem;
-    color: #ffffff;
-    margin-left: 4rem;
-    font-weight: 700;
-    display: block;
-    padding: 4px;
-  }
-
-  .header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 2rem 9%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-  }
-
-  #menu-icon {
-    display: block;
-    font-size: 2.6rem;
-    margin-right: 2rem;
-  }
-
-  .navbar a {
-    font-size: 1.3rem;
-    color: #ffffff;
-    font-weight: 700;
-    display: block;
-    padding: 4px;
-    margin: 2rem 0;
-  }
-
-  .navbar {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    width: 40%;
-    border-left: 3px solid rgb(229, 57, 57);
-    border-bottom: 3px solid rgb(229, 57, 57);
-    border-bottom-left-radius: 2em;
-    padding: 1rem 3%;
-    background-color: #000000;
-    border-bottom: 0.1rem solid black;
-    display: none;
-  }
-
-  .navbar.active {
-    display: block;
-  }
-
-  .image-img img {
-    width: 45%;
-    border-radius: 50%;
-    box-shadow: 0 0 65px rgb(229, 57, 57);
-    animation: floatImage 4s ease-in-out infinite;
-    margin-top: -20%;
-    margin-left: 35%;
-  }
-
-  .container {
-    font-size: 4px;
-    width: 40em;
-    height: 40em;
-    position: absolute;
-    margin-bottom: 5%;
-  }
-
-  .my-motivations {
-    margin-top: -40%;
-  }
-
-  .about-content h3 {
-    font-size: 3rem;
-    font-weight: 700;
-  }
-
-  .about-content h3:nth-of-type(2) {
-    margin-bottom: 2rem;
-  }
-
-  .about-content h1 {
-    font-size: 5rem;
-    font-weight: 700;
-    line-height: 1.3;
-  }
-}
-
-@media (max-width: 400px) {
-  html {
-    font-size: 50%;
-  }
-
-  .tastes-personal {
-    margin-top: -38rem;
-  }
-
-  .navbar a {
-    font-size: 1.3rem;
-    color: #ffffff;
-    margin-left: 4rem;
-    font-weight: 700;
-    display: block;
-    padding: 4px;
-  }
-
-  .header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 2rem 9%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-  }
-
-  #menu-icon {
-    display: block;
-    font-size: 2.6rem;
-    margin-right: 2rem;
-  }
-
-  .navbar a {
-    font-size: 1.3rem;
-    color: #ffffff;
-    font-weight: 700;
-    display: block;
-    padding: 4px;
-    margin: 2rem 0;
-  }
-
-  .navbar {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    width: 40%;
-    border-left: 3px solid rgb(229, 57, 57);
-    border-bottom: 3px solid rgb(229, 57, 57);
-    border-bottom-left-radius: 2em;
-    padding: 1rem 3%;
-    background-color: #000000;
-    border-bottom: 0.1rem solid black;
-    display: none;
-  }
-
-  .navbar.active {
-    display: block;
-  }
-
-  .image-img img {
-    width: 48%;
-    border-radius: 50%;
-    box-shadow: 0 0 65px rgb(229, 57, 57);
-    animation: floatImage 4s ease-in-out infinite;
-    margin-top: -20%;
-    margin-left: 35%;
-  }
-
-  .container {
-    font-size: 3px;
-    width: 40em;
-    height: 40em;
-    position: absolute;
-    margin-bottom: 50%;
-  }
-
-  .my-motivations {
-    margin-top: -80%;
-  }
-
-  .about-content h3 {
-    font-size: 3rem;
-    font-weight: 700;
-  }
-
-  .about-content h3:nth-of-type(2) {
-    margin-bottom: 2rem;
-  }
-
-  .about-content h1 {
-    font-size: 5rem;
-    font-weight: 700;
-    line-height: 1.3;
-  }
-}
-
-@media (max-width: 396px) {
-  html {
-    font-size: 50%;
-  }
-
-  .tastes-personal {
-    margin-top: -43rem;
+    margin-top: -70%;
   }
 
   .navbar a {
@@ -1009,11 +944,1103 @@ p {
     width: 40em;
     height: 40em;
     position: absolute;
-    margin-bottom: 50%;
+    margin-bottom: 70%;
   }
 
   .my-motivations {
     margin-top: -90%;
+  }
+
+  .about-content h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .about-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+  }
+
+  .about-content h1 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 50%;
+  }
+
+  .tastes-personal {
+    margin-top: -80%;
+  }
+
+  .navbar a {
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+    padding: 4px;
+    margin: 2rem 0;
+  }
+
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+  #menu-icon {
+    display: block;
+    font-size: 2.6rem;
+    margin-right: 2rem;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 40%;
+    border-left: 3px solid rgb(229, 57, 57);
+    border-bottom: 3px solid rgb(229, 57, 57);
+    border-bottom-left-radius: 2em;
+    padding: 1rem 3%;
+    background-color: #000000;
+    border-bottom: 0.1rem solid black;
+    display: none;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+
+  .image-img img {
+    width: 52%;
+    border-radius: 50%;
+    box-shadow: 0 0 65px rgb(229, 57, 57);
+    animation: floatImage 4s ease-in-out infinite;
+    margin-top: -30%;
+    margin-left: 35%;
+  }
+
+  .container {
+    font-size: 3px;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    margin-bottom: 90%;
+  }
+
+  .my-motivations {
+    margin-top: -110%;
+  }
+
+  .about-content h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .about-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+  }
+
+  .about-content h1 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 50%;
+  }
+
+  .tastes-personal {
+    margin-top: -100%;
+  }
+
+  .navbar a {
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+    padding: 4px;
+    margin: 2rem 0;
+  }
+
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+  #menu-icon {
+    display: block;
+    font-size: 2.6rem;
+    margin-right: 2rem;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 40%;
+    border-left: 3px solid rgb(229, 57, 57);
+    border-bottom: 3px solid rgb(229, 57, 57);
+    border-bottom-left-radius: 2em;
+    padding: 1rem 3%;
+    background-color: #000000;
+    border-bottom: 0.1rem solid black;
+    display: none;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+
+  .image-img img {
+    width: 52%;
+    border-radius: 50%;
+    box-shadow: 0 0 65px rgb(229, 57, 57);
+    animation: floatImage 4s ease-in-out infinite;
+    margin-top: -30%;
+    margin-left: 35%;
+  }
+
+  .container {
+    font-size: 3px;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    margin-bottom: 100%;
+  }
+
+  .my-motivations {
+    margin-top: -120%;
+  }
+
+  .about-content h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .about-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+  }
+
+  .about-content h1 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .tastes-personal {
+    margin-top: -100%;
+  }
+
+  .navbar a {
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+    padding: 4px;
+    margin: 2rem 0;
+  }
+
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+  #menu-icon {
+    display: block;
+    font-size: 2.6rem;
+    margin-right: 2rem;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 40%;
+    border-left: 3px solid rgb(229, 57, 57);
+    border-bottom: 3px solid rgb(229, 57, 57);
+    border-bottom-left-radius: 2em;
+    padding: 1rem 3%;
+    background-color: #000000;
+    border-bottom: 0.1rem solid black;
+    display: none;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+
+  .image-img img {
+    width: 55%;
+    border-radius: 50%;
+    box-shadow: 0 0 65px rgb(229, 57, 57);
+    animation: floatImage 4s ease-in-out infinite;
+    margin-top: -30%;
+    margin-left: 35%;
+  }
+
+  .container {
+    font-size: 3px;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    margin-bottom: 100%;
+  }
+
+  .my-motivations {
+    margin-top: -120%;
+  }
+
+  .about-content h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .about-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+  }
+
+  .about-content h1 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .tastes-personal {
+    margin-top: -110%;
+  }
+
+  .navbar a {
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+    padding: 4px;
+    margin: 2rem 0;
+  }
+
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+  #menu-icon {
+    display: block;
+    font-size: 2.6rem;
+    margin-right: 2rem;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 40%;
+    border-left: 3px solid rgb(229, 57, 57);
+    border-bottom: 3px solid rgb(229, 57, 57);
+    border-bottom-left-radius: 2em;
+    padding: 1rem 3%;
+    background-color: #000000;
+    border-bottom: 0.1rem solid black;
+    display: none;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+
+  .image-img img {
+    width: 60%;
+    border-radius: 50%;
+    box-shadow: 0 0 65px rgb(229, 57, 57);
+    animation: floatImage 4s ease-in-out infinite;
+    margin-top: -30%;
+    margin-left: 35%;
+  }
+
+  .container {
+    font-size: 3px;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    margin-bottom: 100%;
+  }
+
+  .my-motivations {
+    margin-top: -120%;
+  }
+
+  .about-content h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .about-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+  }
+
+  .about-content h1 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 430px) {
+  html {
+    font-size: 50%;
+  }
+
+  .tastes-personal {
+    margin-top: -155%;
+  }
+
+  .navbar a {
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+    padding: 4px;
+    margin: 2rem 0;
+  }
+
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+  #menu-icon {
+    display: block;
+    font-size: 2.6rem;
+    margin-right: 2rem;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 40%;
+    border-left: 3px solid rgb(229, 57, 57);
+    border-bottom: 3px solid rgb(229, 57, 57);
+    border-bottom-left-radius: 2em;
+    padding: 1rem 3%;
+    background-color: #000000;
+    border-bottom: 0.1rem solid black;
+    display: none;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+
+  .image-img img {
+    width: 60%;
+    border-radius: 50%;
+    box-shadow: 0 0 65px rgb(229, 57, 57);
+    animation: floatImage 4s ease-in-out infinite;
+    margin-top: -30%;
+    margin-left: 35%;
+  }
+
+  .container {
+    font-size: 4px;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    margin-bottom: 130%;
+  }
+
+  .my-motivations {
+    margin-top: -170%;
+  }
+
+  .about-content h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .about-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+  }
+
+  .about-content h1 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 414px) {
+  html {
+    font-size: 50%;
+  }
+
+  .tastes-personal {
+    margin-top: -155%;
+  }
+
+  .navbar a {
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+    padding: 4px;
+    margin: 2rem 0;
+  }
+
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+  #menu-icon {
+    display: block;
+    font-size: 2.6rem;
+    margin-right: 2rem;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 40%;
+    border-left: 3px solid rgb(229, 57, 57);
+    border-bottom: 3px solid rgb(229, 57, 57);
+    border-bottom-left-radius: 2em;
+    padding: 1rem 3%;
+    background-color: #000000;
+    border-bottom: 0.1rem solid black;
+    display: none;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+
+  .image-img img {
+    width: 60%;
+    border-radius: 50%;
+    box-shadow: 0 0 65px rgb(229, 57, 57);
+    animation: floatImage 4s ease-in-out infinite;
+    margin-top: -30%;
+    margin-left: 35%;
+  }
+
+  .container {
+    font-size: 3px;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    margin-bottom: 155%;
+  }
+
+  .my-motivations {
+    margin-top: -195%;
+  }
+
+  .about-content h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .about-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+  }
+
+  .about-content h1 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 410px) {
+  html {
+    font-size: 50%;
+  }
+
+  .tastes-personal {
+    margin-top: -120%;
+  }
+
+  .navbar a {
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+    padding: 4px;
+    margin: 2rem 0;
+  }
+
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+  #menu-icon {
+    display: block;
+    font-size: 2.6rem;
+    margin-right: 2rem;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 40%;
+    border-left: 3px solid rgb(229, 57, 57);
+    border-bottom: 3px solid rgb(229, 57, 57);
+    border-bottom-left-radius: 2em;
+    padding: 1rem 3%;
+    background-color: #000000;
+    border-bottom: 0.1rem solid black;
+    display: none;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+
+  .image-img img {
+    width: 60%;
+    border-radius: 50%;
+    box-shadow: 0 0 65px rgb(229, 57, 57);
+    animation: floatImage 4s ease-in-out infinite;
+    margin-top: -30%;
+    margin-left: 35%;
+  }
+
+  .container {
+    font-size: 3px;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    margin-bottom: 125%;
+  }
+
+  .my-motivations {
+    margin-top: -140%;
+  }
+
+  .about-content h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .about-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+  }
+
+  .about-content h1 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 50%;
+  }
+
+  .tastes-personal {
+    margin-top: -120%;
+  }
+
+  .navbar a {
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+    padding: 4px;
+    margin: 2rem 0;
+  }
+
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+  #menu-icon {
+    display: block;
+    font-size: 2.6rem;
+    margin-right: 2rem;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 40%;
+    border-left: 3px solid rgb(229, 57, 57);
+    border-bottom: 3px solid rgb(229, 57, 57);
+    border-bottom-left-radius: 2em;
+    padding: 1rem 3%;
+    background-color: #000000;
+    border-bottom: 0.1rem solid black;
+    display: none;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+
+  .image-img img {
+    width: 60%;
+    border-radius: 50%;
+    box-shadow: 0 0 65px rgb(229, 57, 57);
+    animation: floatImage 4s ease-in-out infinite;
+    margin-top: -30%;
+    margin-left: 35%;
+  }
+
+  .container {
+    font-size: 3px;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    margin-bottom: 125%;
+  }
+
+  .my-motivations {
+    margin-top: -140%;
+  }
+
+  .about-content h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .about-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+  }
+
+  .about-content h1 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 390px) {
+  html {
+    font-size: 50%;
+  }
+
+  .tastes-personal {
+    margin-top: -155%;
+  }
+
+  .navbar a {
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+    padding: 4px;
+    margin: 2rem 0;
+  }
+
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+  #menu-icon {
+    display: block;
+    font-size: 2.6rem;
+    margin-right: 2rem;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 40%;
+    border-left: 3px solid rgb(229, 57, 57);
+    border-bottom: 3px solid rgb(229, 57, 57);
+    border-bottom-left-radius: 2em;
+    padding: 1rem 3%;
+    background-color: #000000;
+    border-bottom: 0.1rem solid black;
+    display: none;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+
+  .image-img img {
+    width: 60%;
+    border-radius: 50%;
+    box-shadow: 0 0 65px rgb(229, 57, 57);
+    animation: floatImage 4s ease-in-out infinite;
+    margin-top: -30%;
+    margin-left: 35%;
+  }
+
+  .container {
+    font-size: 3px;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    margin-bottom: 145%;
+  }
+
+  .my-motivations {
+    margin-top: -175%;
+  }
+
+  .about-content h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .about-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+  }
+
+  .about-content h1 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 370px) {
+  html {
+    font-size: 50%;
+  }
+
+  .tastes-personal {
+    margin-top: -145%;
+  }
+
+  .navbar a {
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+    padding: 4px;
+    margin: 2rem 0;
+  }
+
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+  #menu-icon {
+    display: block;
+    font-size: 2.6rem;
+    margin-right: 2rem;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 40%;
+    border-left: 3px solid rgb(229, 57, 57);
+    border-bottom: 3px solid rgb(229, 57, 57);
+    border-bottom-left-radius: 2em;
+    padding: 1rem 3%;
+    background-color: #000000;
+    border-bottom: 0.1rem solid black;
+    display: none;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+
+  .image-img img {
+    width: 60%;
+    border-radius: 50%;
+    box-shadow: 0 0 65px rgb(229, 57, 57);
+    animation: floatImage 4s ease-in-out infinite;
+    margin-top: -30%;
+    margin-left: 35%;
+  }
+
+  .container {
+    font-size: 3px;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    margin-bottom: 125%;
+  }
+
+  .my-motivations {
+    margin-top: -150%;
+  }
+
+  .about-content h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .about-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+  }
+
+  .about-content h1 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 350px) {
+  html {
+    font-size: 50%;
+  }
+
+  .tastes-personal {
+    margin-top: -150%;
+  }
+
+  .navbar a {
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+    padding: 4px;
+    margin: 2rem 0;
+  }
+
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+  #menu-icon {
+    display: block;
+    font-size: 2.6rem;
+    margin-right: 2rem;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 40%;
+    border-left: 3px solid rgb(229, 57, 57);
+    border-bottom: 3px solid rgb(229, 57, 57);
+    border-bottom-left-radius: 2em;
+    padding: 1rem 3%;
+    background-color: #000000;
+    border-bottom: 0.1rem solid black;
+    display: none;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+
+  .image-img img {
+    width: 55%;
+    border-radius: 50%;
+    box-shadow: 0 0 65px rgb(229, 57, 57);
+    animation: floatImage 4s ease-in-out infinite;
+    margin-top: -30%;
+    margin-left: 35%;
+  }
+
+  .container {
+    font-size: 3px;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    margin-bottom: 125%;
+  }
+
+  .my-motivations {
+    margin-top: -160%;
+  }
+
+  .about-content h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .about-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+  }
+
+  .about-content h1 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 327px) {
+  html {
+    font-size: 50%;
+  }
+
+  .tastes-personal {
+    margin-top: -160%;
+  }
+
+  .navbar a {
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+    padding: 4px;
+    margin: 2rem 0;
+  }
+
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+  #menu-icon {
+    display: block;
+    font-size: 2.6rem;
+    margin-right: 2rem;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 40%;
+    border-left: 3px solid rgb(229, 57, 57);
+    border-bottom: 3px solid rgb(229, 57, 57);
+    border-bottom-left-radius: 2em;
+    padding: 1rem 3%;
+    background-color: #000000;
+    border-bottom: 0.1rem solid black;
+    display: none;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+
+  .image-img img {
+    width: 60%;
+    border-radius: 50%;
+    box-shadow: 0 0 65px rgb(229, 57, 57);
+    animation: floatImage 4s ease-in-out infinite;
+    margin-top: -30%;
+    margin-left: 35%;
+  }
+
+  .container {
+    font-size: 3px;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    margin-bottom: 125%;
+  }
+
+  .my-motivations {
+    margin-top: -160%;
   }
 
   .about-content h3 {
@@ -1038,7 +2065,7 @@ p {
   }
 
   .tastes-personal {
-    margin-top: -43rem;
+    margin-top: -160%;
   }
 
   .navbar a {
@@ -1087,7 +2114,7 @@ p {
   }
 
   .image-img img {
-    width: 52%;
+    width: 60%;
     border-radius: 50%;
     box-shadow: 0 0 65px rgb(229, 57, 57);
     animation: floatImage 4s ease-in-out infinite;
@@ -1100,11 +2127,11 @@ p {
     width: 40em;
     height: 40em;
     position: absolute;
-    margin-bottom: 50%;
+    margin-bottom: 125%;
   }
 
   .my-motivations {
-    margin-top: -90%;
+    margin-top: -160%;
   }
 
   .about-content h3 {
@@ -1129,7 +2156,7 @@ p {
   }
 
   .tastes-personal {
-    margin-top: -43rem;
+    margin-top: -160%;
   }
 
   .navbar a {
@@ -1178,7 +2205,7 @@ p {
   }
 
   .image-img img {
-    width: 52%;
+    width: 60%;
     border-radius: 50%;
     box-shadow: 0 0 65px rgb(229, 57, 57);
     animation: floatImage 4s ease-in-out infinite;
@@ -1191,11 +2218,11 @@ p {
     width: 40em;
     height: 40em;
     position: absolute;
-    margin-bottom: 50%;
+    margin-bottom: 125%;
   }
 
   .my-motivations {
-    margin-top: -90%;
+    margin-top: -160%;
   }
 
   .about-content h3 {
@@ -1220,7 +2247,7 @@ p {
   }
 
   .tastes-personal {
-    margin-top: -43rem;
+    margin-top: -160%;
   }
 
   .navbar a {
@@ -1269,7 +2296,7 @@ p {
   }
 
   .image-img img {
-    width: 52%;
+    width: 60%;
     border-radius: 50%;
     box-shadow: 0 0 65px rgb(229, 57, 57);
     animation: floatImage 4s ease-in-out infinite;
@@ -1282,11 +2309,11 @@ p {
     width: 40em;
     height: 40em;
     position: absolute;
-    margin-bottom: 50%;
+    margin-bottom: 125%;
   }
 
   .my-motivations {
-    margin-top: -90%;
+    margin-top: -160%;
   }
 
   .about-content h3 {
@@ -1311,7 +2338,7 @@ p {
   }
 
   .tastes-personal {
-    margin-top: -43rem;
+    margin-top: -160%;
   }
 
   .navbar a {
@@ -1360,7 +2387,7 @@ p {
   }
 
   .image-img img {
-    width: 52%;
+    width: 60%;
     border-radius: 50%;
     box-shadow: 0 0 65px rgb(229, 57, 57);
     animation: floatImage 4s ease-in-out infinite;
@@ -1373,11 +2400,11 @@ p {
     width: 40em;
     height: 40em;
     position: absolute;
-    margin-bottom: 50%;
+    margin-bottom: 125%;
   }
 
   .my-motivations {
-    margin-top: -90%;
+    margin-top: -160%;
   }
 
   .about-content h3 {
@@ -1394,4 +2421,17 @@ p {
     font-weight: 700;
     line-height: 1.3;
   }
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e53939;
+  border-radius: 10px;
 }
