@@ -98,7 +98,7 @@ p {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 1.8rem;
-  text-align: justify;
+  text-align: start;
   white-space: normal;
 }
 
@@ -165,7 +165,7 @@ p {
   font-size: 1.8rem;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
-  text-align: justify;
+  text-align: start;
   margin-top: -3rem;
 }
 
@@ -189,7 +189,7 @@ p {
   font-size: 1.8rem;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
-  text-align: justify;
+  text-align: start;
   margin-top: -3rem;
 }
 
@@ -1337,7 +1337,7 @@ p {
   }
 
   .tastes-personal {
-    margin-top: -155%;
+    margin-top: -130%;
   }
 
   .navbar a {
@@ -1386,24 +1386,24 @@ p {
   }
 
   .image-img img {
-    width: 60%;
+    width: 48%;
     border-radius: 50%;
     box-shadow: 0 0 65px rgb(229, 57, 57);
     animation: floatImage 4s ease-in-out infinite;
-    margin-top: -30%;
+    margin-top: -40%;
     margin-left: 35%;
   }
 
   .container {
-    font-size: 4px;
+    font-size: 3px;
     width: 40em;
     height: 40em;
     position: absolute;
-    margin-bottom: 130%;
+    margin-bottom: 90%;
   }
 
   .my-motivations {
-    margin-top: -170%;
+    margin-top: -120%;
   }
 
   .about-content h3 {
